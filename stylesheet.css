@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.game-board {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    background-color:black;
+    border: darkred;
+    border-style: groove;
+
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    font-size:xx-large;
+    border: darkred;
+    border-style:solid;
+    border-radius: 10px;
+}
